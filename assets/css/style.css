@@ -92,5 +92,21 @@ section {
     width: 100%;
   }
   .card-equipe {
+    margin: 0;
+  }
+  .card-equipe img {
+    margin: 0 90px 20px 90px;
+  }
+  .card-equipe .nome {
+    font-size: 22px;
+  }
+  .card-equipe .tel-email {
+    font-size: 18px;
+  }
+  #map {
+    display: none;
+  }
+  .description p {
+    font-size: 18px;
   }
 }
