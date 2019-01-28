@@ -4,3 +4,10 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 var marker = L.marker([-3.104891, -60.006464]).addTo(mymap);
+
+$(function() {
+  $(document).scroll(function() {
+    var $nav = $('.fixed-top');
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});

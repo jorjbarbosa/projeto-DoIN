@@ -11,6 +11,10 @@ header {
 section {
   min-height: 100vh;
 }
+.scrolled {
+  background-color: #000 !important;
+  transition: background-color 200ms linear;
+}
 #home {
   color: #fff;
   text-align: center;
@@ -86,6 +90,12 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+  #home {
+    width: 100%;
+  }
+  #home h2 {
+    font-size: 26px;
+  }
   .description {
     margin: 0;
     padding: 0;
