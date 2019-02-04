@@ -60,7 +60,7 @@ section {
   text-align: justify;
 }
 .info {
-  padding-top: 90px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -87,6 +87,9 @@ section {
 #map {
   height: 100%;
   width: 100%;
+}
+#sobre-nos {
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
